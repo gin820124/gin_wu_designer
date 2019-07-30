@@ -675,10 +675,20 @@ input[type="button"]:focus {
 }
 
 .about_pic {
-    width: 40%;
+    width: 32%;
     margin-right: 50px;
     float: left;
 }
+
+
+/*
+.about_pic {
+    width: 200px;
+    margin:auto;
+}
+*/
+
+
 
 .about_pic img {
     width: 100%;
@@ -1362,13 +1372,15 @@ ul.tabs li.active {
 
 @media (max-width: 1129px) {
     .about_pic {
-        width: 60%;
+        width: 375px;
         float: none;
+        margin: auto;
     }
     .about_word {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
+        margin-top: -200px;
     }
 
 }
