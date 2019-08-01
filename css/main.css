@@ -1343,6 +1343,21 @@ ul.tabs li.active {
     background-repeat: no-repeat;
 }
 
+.my_cv {
+    width: 170px;
+    border: 2px solid #f1a384;
+    color: #f1a384;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 60px;
+
+}
+
+.portfoilo_btn .my_cv {
+    text-align: left;
+}
+
+
 /*全部的RWD CSS*/
 
 @media (min-width: 1440px) {
@@ -1380,7 +1395,7 @@ ul.tabs li.active {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -200px;
+        margin-top: -350px;
     }
 
 }
